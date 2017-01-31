@@ -1,0 +1,11 @@
+clear all;
+close all;
+domain = -10:0.1:10;
+subplot(2,1,1);
+signal = 110*sin(domain.*pi*21)./domain.*pi*21;
+plot(domain,signal);
+title('5e');
+subplot(2,1,2);
+signal2 = sinc(domain).*sinc(domain);
+plot(domain,signal2);
+title('5f');
