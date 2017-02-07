@@ -1,0 +1,18 @@
+clear all;
+close all;
+
+p = 3;
+
+phi = 360/p;
+
+answer = [];
+
+for i = 1:p
+    segment = zeros(1,p);
+    delPhi = phi * (p-1) * (i-1);
+    for j = 1:length(segment)
+        segment(j) = mod(j-1)*delPhi,360);
+    end;
+    answer = cat(2, answer, segment);
+end;
+
