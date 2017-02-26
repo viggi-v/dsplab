@@ -8,6 +8,8 @@ x = 1:9;
 zz = yy.^xx;
 fig1 = figure();
 fig1.Name = '3D Plot';
+
+title('aaa');
 plot3(xx,yy,zz);
 
 z1 = xcorr(zz(1,:),4);

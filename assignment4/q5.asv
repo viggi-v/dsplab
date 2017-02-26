@@ -1,0 +1,16 @@
+clear all;
+close all;
+
+% Modulation property
+dom = -pi:2*pi/255:pi;
+
+x1 = [1 3 5 7 9 11 13 15 17];
+x2 = [1 -1 1 -1 1 -1 1-1 1];
+
+prod = x1.*x2;
+[result_1, range] = freqz(prod,[1],dom);
+
+X1 = freqz(x1,[1],dom);
+X2 = freqz(x2,[1],dom);
+
+[result2, range2] = conv(X1,X2(
