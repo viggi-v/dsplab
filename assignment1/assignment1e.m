@@ -1,3 +1,5 @@
+% Question 1E
+% Generating the function given, and analyzing its growth and decay
 close all;
 clear all;
 domain  = -50:50;

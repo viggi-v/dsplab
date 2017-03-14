@@ -1,3 +1,6 @@
+% Question 1C and 1D
+% Generating the complex sequence given
+
 domain = -50:50;
 
 c = -1/12 + pi*i/6;

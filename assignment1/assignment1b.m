@@ -1,3 +1,5 @@
+% Question 1B
+% Generating unit step function and ramp function
 clc
 clear all
 close all

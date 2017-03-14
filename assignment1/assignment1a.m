@@ -1,3 +1,6 @@
+% Question 1 A
+% Plot different function
+
 domain = -20:20;
 
 impulse = domain==0;
